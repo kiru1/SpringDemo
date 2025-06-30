@@ -19,7 +19,7 @@ public class App {
 	}
 		public static void main(String[] args) {
 	
-        System.out.println("Hello World!");
+        System.out.println("Spring project!");
        ApplicationContext context =new ClassPathXmlApplicationContext("beans.xml");
         //ApplicationContext context=new AnnotationConfigApplicationContext(AppConfig.class);
       // App app= context.getBean(App.class);
